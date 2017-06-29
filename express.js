@@ -12,7 +12,7 @@ module.exports = () => {
   app.use(express.static(path.resolve('./public')));
   // app.set('view engine', 'pug');
 
-  app.get('/', function (req, res) {
+  app.get('/api', function (req, res) {
     res.send('Hello World!');
   });
 
