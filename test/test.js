@@ -5,7 +5,7 @@ var request = require('supertest');
 
 var app = require('../server').app;
 
-describe('GET /'.function () {
+describe('GET /', function () {
   it ('expects HTTP response 200', function (done) {
     request(app)
       .get('/')
