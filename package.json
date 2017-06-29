@@ -1,0 +1,26 @@
+{
+  "name": "node-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armandomendivil/node-devops.git"
+  },
+  "keywords": [],
+  "author": "Armando Mendivil <armandomendivil.m@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armandomendivil/node-devops/issues"
+  },
+  "homepage": "https://github.com/armandomendivil/node-devops#readme",
+  "dependencies": {
+    "express": "4.15.3",
+    "jade": "1.11.0",
+    "mocha": "3.4.2",
+    "supertest": "3.0.0"
+  }
+}
